@@ -1,4 +1,4 @@
-** start of undefined **
+<!--start of HTML Code -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -67,9 +67,9 @@
 </html>
 
 
-** end of undefined **
+<!-- end of HTML code -->
 
-** start of undefined **
+<!--start of CSS code -->
 
 body {
     font-family: Arial, sans-serif;
@@ -140,5 +140,5 @@ button:hover {
 }
 
 
-** end of undefined **
+<!-- end of CSS -->
 
