@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Web Development Docs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Dev Docs</header>
+      <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+      <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+      <a class="nav-link" href="#JavaScript_Introduction">JavaScript Introduction</a>
+      <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+      <a class="nav-link" href="#Debugging_Tips">Debugging Tips</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="HTML_Basics">
+        <header>HTML Basics</header>
+        <p>HTML (HyperText Markup Language) is the backbone of web pages.</p>
+        <p>It describes the structure of a web page semantically.</p>
+        <p>HTML elements are represented by tags like <code>&lt;h1&gt;</code> or <code>&lt;p&gt;</code>.</p>
+        <p>Each tag serves a specific purpose, such as defining headings, paragraphs, lists, etc.</p>
+        <p>HTML documents are read and rendered by browsers.</p>
+        <ul>
+          <li>Headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></li>
+          <li>Paragraphs: <code>&lt;p&gt;</code></li>
+          <li>Lists: <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code></li>
+          <li>Links: <code>&lt;a&gt;</code></li>
+          <li>Images: <code>&lt;img&gt;</code></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="CSS_Fundamentals">
+        <header>CSS Fundamentals</header>
+        <p>CSS (Cascading Style Sheets) controls the presentation of web pages.</p>
+        <p>It allows you to style HTML elements with colors, layouts, and fonts.</p>
+        <p>You can apply styles inline, internally, or externally using stylesheets.</p>
+        <p>CSS uses selectors to target HTML elements.</p>
+        <p>It supports responsive design via media queries.</p>
+        <ul>
+          <li><code>color</code>: Sets the text color</li>
+          <li><code>font-size</code>: Sets the font size</li>
+          <li><code>margin</code> and <code>padding</code>: Control spacing</li>
+          <li><code>display</code>: Defines layout behavior</li>
+          <li><code>flex</code>: Enables flexible box layout</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="JavaScript_Introduction">
+        <header>JavaScript Introduction</header>
+        <p>JavaScript adds interactivity and dynamic behavior to web pages.</p>
+        <p>It can manipulate the DOM, respond to user events, and communicate with servers.</p>
+        <p>JavaScript runs in the browser without needing a server.</p>
+        <p>It is one of the core technologies of the web alongside HTML and CSS.</p>
+        <p>Modern JavaScript uses ES6+ features like <code>let</code>, <code>const</code>, and arrow functions.</p>
+        <ul>
+          <li>Variables: <code>let x = 10;</code></li>
+          <li>Functions: <code>function greet() {}</code></li>
+          <li>Events: <code>element.addEventListener()</code></li>
+          <li>DOM Access: <code>document.getElementById()</code></li>
+          <li>APIs: <code>fetch()</code> for HTTP requests</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Responsive_Design">
+        <header>Responsive Design</header>
+        <p>Responsive design ensures websites work well on all screen sizes.</p>
+        <p>It uses flexible layouts, images, and media queries.</p>
+        <p>Mobile-first design starts with styling for small screens first.</p>
+        <p>Media queries apply different styles based on device characteristics.</p>
+        <p>Tools like Flexbox and Grid help build responsive layouts.</p>
+        <ul>
+          <li><code>@media</code>: Media query syntax</li>
+          <li><code>max-width</code> and <code>min-width</code>: Set breakpoints</li>
+          <li><code>flex-direction</code>: Layout flow in Flexbox</li>
+          <li><code>grid-template-columns</code>: Grid layout columns</li>
+          <li><code>viewport</code>: Defined in the HTML meta tag</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Debugging_Tips">
+        <header>Debugging Tips</header>
+        <p>Debugging is essential for finding and fixing code issues.</p>
+        <p>Use browser dev tools to inspect elements and view console logs.</p>
+        <p><code>console.log()</code> is useful for tracking variable values.</p>
+        <p>Breakpoints help pause code execution in dev tools.</p>
+        <p>Linting tools like ESLint can catch errors early.</p>
+        <ul>
+          <li>Console tab: Shows output and errors</li>
+          <li>Elements tab: Inspect HTML structure</li>
+          <li>Sources tab: Set breakpoints in JS files</li>
+          <li>Network tab: Monitor HTTP requests</li>
+          <li>Performance tab: Analyze load time</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
